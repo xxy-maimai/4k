@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jc5wO/YhEZ8=",
+  "success": true,
+  "projectFilePath": "E:\\CSharpProjects\\4k\\4k\\4k\\4k.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xxy__\\.nuget\\packages\\raylib-cs\\8.0.0\\raylib-cs.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

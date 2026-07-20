@@ -1,0 +1,3 @@
+offset:1.42
+bpm:174
+beat:4
