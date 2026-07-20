@@ -3,5 +3,5 @@
 四根轨道分别用D、F、J、K控制，皮肤、谱面、音乐、设置文件等都在resources文件夹下。<br>
 谱面格式：以"&"字符开头的均为元数据，即偏移、bpm以及拍号；tap以单独数字表示，hold以数字+h+持续拍号+冒号+持续时值表示，逗号分隔，加号表示多押。<br>
 设置：scrolling_speed为流速，不要输入奇怪的值，我不知道会有什么后果；input_offset是输入延迟，因设备而异，自己调整。<br>
-判定区间：tap及hold头：±40ms是max判定，±40-80ms是great判定，大于80ms是miss判定；hold身体：断开判miss，距尾部若时间大于40ms松手判为miss。<br>
+判定区间：tap及hold头：±40ms是max判定，±40-80ms是great判定，大于80ms是miss判定；hold身体：断开判miss，距尾部若时间大于80ms松手判为miss。<br>
 这个东西太简陋了，以后我可能会优化。
