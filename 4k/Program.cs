@@ -279,7 +279,7 @@ class Program
                     {
                         if(current_time <= current_note.time + current_note.hold_duration)
                         {
-                            if (!(last_pressed[trail - 1] && pressed[trail - 1]) && (current_note.time + current_note.hold_duration - current_time >= 0.04))
+                            if (!(last_pressed[trail - 1] && pressed[trail - 1]) && (current_note.time + current_note.hold_duration - current_time >= 0.08))
                             {
                                 current_judge = "miss";
                                 display_judge_time = current_time;
@@ -377,11 +377,14 @@ class Program
             else
             {
                 string[] note_strings = data.Split(',');
+                int idx = 0;
                 foreach(string note_string in note_strings)
                 {
+                    if (idx == note_strings.Count() - 1) break;
                     if(note_string == "")
                     {
                         current_time += 60.0 / bpm / beat * 4.0;
+                        idx++;
                         continue;
                     }
                     if (note_string.Contains('+'))
@@ -437,6 +440,7 @@ class Program
                         }
                     }
                     current_time += 60.0 / bpm / beat * 4.0;
+                    idx++;
                 }
             }
         }

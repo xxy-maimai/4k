@@ -20,3 +20,4 @@ E:\CSharpProjects\4k\4k\4k\obj\Debug\net10.0\refint\4k.dll
 E:\CSharpProjects\4k\4k\4k\obj\Debug\net10.0\4k.pdb
 E:\CSharpProjects\4k\4k\4k\obj\Debug\net10.0\4k.genruntimeconfig.cache
 E:\CSharpProjects\4k\4k\4k\obj\Debug\net10.0\ref\4k.dll
+E:\CSharpProjects\4k\4k\4k\obj\Debug\net10.0\4k.sourcelink.json
